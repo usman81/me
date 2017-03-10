@@ -13,6 +13,7 @@
 		FC4233E31E723ECC005CE0D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4233E11E723ECC005CE0D0 /* Main.storyboard */; };
 		FC4233E51E723ECC005CE0D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4233E41E723ECC005CE0D0 /* Assets.xcassets */; };
 		FC4233E81E723ECC005CE0D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4233E61E723ECC005CE0D0 /* LaunchScreen.storyboard */; };
+		FC4234161E7243E0005CE0D0 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4234151E7243E0005CE0D0 /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FC4233E41E723ECC005CE0D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC4233E71E723ECC005CE0D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC4233E91E723ECC005CE0D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4234141E7243E0005CE0D0 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		FC4234151E7243E0005CE0D0 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,8 @@
 		FC4233CC1E723ECC005CE0D0 = {
 			isa = PBXGroup;
 			children = (
+				FC4234141E7243E0005CE0D0 /* TestClass.h */,
+				FC4234151E7243E0005CE0D0 /* TestClass.m */,
 				FC4233D71E723ECC005CE0D0 /* GitDemo */,
 				FC4233D61E723ECC005CE0D0 /* Products */,
 			);
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC4234161E7243E0005CE0D0 /* TestClass.m in Sources */,
 				FC4233E01E723ECC005CE0D0 /* ViewController.m in Sources */,
 				FC4233DD1E723ECC005CE0D0 /* AppDelegate.m in Sources */,
 				FC4233DA1E723ECC005CE0D0 /* main.m in Sources */,
@@ -310,6 +316,7 @@
 				FC4233EE1E723ECC005CE0D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
